@@ -1,0 +1,10 @@
+------- TABELA -------
+codigo int auto_increment,
+descricao varchar(255),
+autor varchar(100),
+ouvidor varchar(100),
+tipo varchar(100),
+primary key(codigo)
+
+
+obs: o tipo só pode ser: Reclamação, Sugestão e Elogios.
