@@ -1,7 +1,7 @@
 from operacoesdb import *
 
 def registrarManifestacao(conn, dados):
-    registrarmanifestacaoSQL = 'insert into manifestacao(descricao, autor, ouvidor, tipo) values(%s,%s,%s,%s,%s)'
+    registrarmanifestacaoSQL = 'insert into manifestacao(descricao, autor, ouvidor, tipo) values(%s,%s,%s,%s)'
     registrar = insertNoBancoDados(conn, registrarmanifestacaoSQL, dados)
 
     return registrar
