@@ -27,7 +27,7 @@ def buscarManifestacaoPorCodigo(conn, dados):
 
 
 def buscarManifestacaoTipo(conn, dados):
-    buscarManifestacaoTipoSQL = 'select tipo from manifestacao where codigo = %s'
+    buscarManifestacaoTipoSQL = 'select * from manifestacao where tipo = %s'
     tipo = listarBancoDados(conn, buscarManifestacaoTipoSQL, dados)
 
     return tipo
