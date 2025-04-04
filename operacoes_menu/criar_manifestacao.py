@@ -1,7 +1,7 @@
 from metodos.operacoes_ouvidoria import registrarManifestacao
 
 
-def criarManifestacao(conn):
+def criarManifestacaoMenu(conn):
     while True:
         descricao = input("Descrição da Manifestação: ")
         autor = input("Autor da Manifestação: ")
