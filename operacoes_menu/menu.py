@@ -4,7 +4,7 @@ from operacoes_menu import *
 def menu(conn):
     opcao = -1
     while opcao != 7:
-        print(f"Opção (1) - 📋 Listagem das Manifestações")
+        print(f"\nOpção (1) - 📋 Listagem das Manifestações")
         print(f"Opção (2) - 🏷️ Listagem de Manifestações por Tipo")
         print(f"Opção (3) - 📝 Criar uma nova Manifestação")
         print(f"Opção (4) - 🔢 Exibir quantidade de manifestações")
@@ -30,7 +30,7 @@ def menu(conn):
             print(f"Pesquisar uma manifestação por código")
 
         elif opcao == 6:
-            print(f"Excluir uma Manifestação pelo Código")
+            excluirManifestacaoMenu(conn)
 
         elif opcao != 7:
             print(f"Opção inválida!")
