@@ -36,4 +36,3 @@ def menu(conn):
             print(f"Opção inválida!")
 
     print(f"Obrigado por usar nossos serviços!")
-
