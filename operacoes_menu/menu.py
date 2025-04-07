@@ -26,7 +26,7 @@ def menu(conn):
         elif opcao == 4:
             contarManifestacaoMenu(conn)
         elif opcao == 5:
-            print(f"Pesquisar uma manifestação por código")
+            buscarManifestacaoCodigoMenu(conn)
 
         elif opcao == 6:
             excluirManifestacaoMenu(conn)

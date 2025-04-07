@@ -1,3 +1,4 @@
+from .buscar_manifestacao import buscarManifestacaoCodigoMenu
 from .contar_manifestacoes import contarManifestacaoMenu
 from .criar_manifestacao import criarManifestacaoMenu
 from .listar_manifestacoes import listarManifestacoesMenu
@@ -9,6 +10,7 @@ __all__ = [
     "listarManifestacoesMenu",
     "excluirManifestacaoMenu",
     "listarPorTipoMenu",
-    "contarManifestacaoMenu"
+    "contarManifestacaoMenu",
+    "buscarManifestacaoCodigoMenu"
 
 ]
