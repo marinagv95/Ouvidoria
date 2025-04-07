@@ -4,5 +4,8 @@ from .excluir_manifestacao import excluirManifestacaoMenu
 __all__ = [
     "criarManifestacaoMenu",
     "listarManifestacoesMenu",
-    "excluirManifestacaoMenu"
+    "excluirManifestacaoMenu",
+    "listarPorTipoMenu"
 ]
+
+from .listar_por_tipo import listarPorTipoMenu
