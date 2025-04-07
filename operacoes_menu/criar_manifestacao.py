@@ -26,6 +26,5 @@ def criarManifestacaoMenu(conn):
             print(f"Dados inválidos!")
         else:
             registroManifestacao = registrarManifestacao(conn, dados)
-            print(f"Manifestação registrada com sucesso! - Código: {registroManifestacao} " )
+            print(f"Manifestação registrada com sucesso! - Código: {registroManifestacao} ")
             break
-
