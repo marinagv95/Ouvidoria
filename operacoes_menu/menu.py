@@ -24,8 +24,7 @@ def menu(conn):
             criarManifestacaoMenu(conn)
 
         elif opcao == 4:
-            print(f"Exibir quantidade de manifestações")
-
+            contarManifestacaoMenu(conn)
         elif opcao == 5:
             print(f"Pesquisar uma manifestação por código")
 
