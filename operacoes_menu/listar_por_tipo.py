@@ -3,7 +3,7 @@ from metodos.operacoes_ouvidoria import buscarManifestacaoTipo
 
 def listarPorTipoMenu(conn):
     while True:
-        buscarTipo = int(input("Tipo da Manifestação ((1) - Reclamação, (2) - Sugestão (3) - Elogio): "))
+        buscarTipo = int(input("Tipo da Manifestação (\nReclamação - (1) \nSugestão -(2) \nElogio - (3): "))
         if buscarTipo == 1:
             buscarTipo = "Reclamação"
             break
