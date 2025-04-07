@@ -18,7 +18,7 @@ def menu(conn):
             listarManifestacoesMenu(conn)
 
         elif opcao == 2:
-            print(f"Listagem de Manifestações por Tipo")
+            listarPorTipoMenu(conn)
 
         elif opcao == 3:
             criarManifestacaoMenu(conn)
