@@ -25,6 +25,11 @@
               
  <h2>📌 Descrição</h2>
     <p>Este projeto consiste em um sistema de ouvidoria desenvolvido em Python com integração ao banco de dados MySQL. Ele permite registrar, listar, buscar e excluir manifestações, servindo como um projeto didático para o aprendizado de banco de dados e lógica de programação.</p>
+    <h2>⚙️ Pré-requisitos</h2>
+<ul>
+  <li>Python 3.8+</li>
+  <li>MySQL 5.7+</li>
+</ul>
 
  <h2>🛠️ Tecnologias Utilizadas</h2>
  <ul>
