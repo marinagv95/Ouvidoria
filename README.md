@@ -21,8 +21,7 @@
       </td>
     </tr>
 </div>
-              
-<br>
+
               
  <h2>📌 Descrição</h2>
     <p>Este projeto consiste em um sistema de ouvidoria desenvolvido em Python com integração ao banco de dados MySQL. Ele permite registrar, listar, buscar e excluir manifestações, servindo como um projeto didático para o aprendizado de banco de dados e lógica de programação.</p>
