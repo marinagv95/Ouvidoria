@@ -11,25 +11,19 @@
         <ul>
           <li><b>A UniXYZ já te ouvia e tirava suas dúvidas, agora nós também te deixamos a par das manifestações dos outros estudantes. Tudo para que você se sinta mais seguro de conversar e tirar suas dúvidas conosco!</li>
      <br>
-     <br>
+<div style="display: flex; gap: 20px; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/16191e18-f2a9-47fc-88b4-0dfc09752940" alt="OUVIDORIAXYZ_capa" style="max-width: 100%; height: auto;">
+    <img src="https://github.com/user-attachments/assets/40acdb8c-2bd3-48cd-9518-dcd8a52b60fe" alt="Imagem 2" style="max-width: 100%; height: auto;">
+</div>
+       </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+</div>
               
-![OUVIDORIAXYZ_capa (1)](https://github.com/user-attachments/assets/16191e18-f2a9-47fc-88b4-0dfc09752940)
-       </ul>
-      </td>
-      <td>
-      </td>
-    </tr>
-</div>
-
-![2](https://github.com/user-attachments/assets/40acdb8c-2bd3-48cd-9518-dcd8a52b60fe)
-       </ul>
-      </td>
-      <td>
-      </td>
-    </tr>
-</div>
 <br>
-<br>
+              
  <h2>📌 Descrição</h2>
     <p>Este projeto consiste em um sistema de ouvidoria desenvolvido em Python com integração ao banco de dados MySQL. Ele permite registrar, listar, buscar e excluir manifestações, servindo como um projeto didático para o aprendizado de banco de dados e lógica de programação.</p>
 
